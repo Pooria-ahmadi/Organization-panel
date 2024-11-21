@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('~/assets/fonts/Vazir-FD-WOL.eot') format('eot'),
+    url('~/assets/fonts/Vazir-FD-WOL.woff') format('woff'),
+    url('~/assets/fonts/Vazir-FD-WOL.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: boldvazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('~/assets/fonts/Vazir-Bold-FD-WOL.eot') format('eot'),
+    url('~/assets/fonts/Vazir-Bold-FD-WOL.ttf') format('ttf'),
+    url('~/assets/fonts/Vazir-Bold-FD-WOL.woff') format('woff'),
+    url('~/assets/fonts/Vazir-Bold-FD-WOL.woff2') format('woff2');
+}
+
+html, body {
+  margin: 0;
+  font-family: vazir !important;
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(to bottom, #e0fff3, #8eb4b9);
+}
+.width-text-118px{
+  width: 118px;
+}
+.w-100-z-index-2 {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mt-75 {
+  margin-top: 75px;
+}
+.color-8D79D1 {
+  color: #8D79D1;
+}
+.max-width-1160px {
+  max-width: 1325px;
+  padding-top: 60px;
+}
+.br-15{
+  border-radius: 15px;
+}
+.br-10-grey{
+  border: 1px solid #D0D0D0;
+  border-radius: 10px;
+}
+.p-30{
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+.bg-purple{
+  background-color: #8d79d1;
+}
+.bg-transparent{
+  background: transparent;
+}
+.br-input-white{
+  background-color: rgba(255, 255, 255, 0.38);
+  border-right: none;
+  border-top: none;
+  border-left: none;
+}
+.circle {
+  border-radius: 50%;
+  width: 80px;
+  display: inline-block;
+  height: 80px;
+}
+.background-section {
+  background-image: url('/bg-login.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singup-box {
+  background-color: rgba(141, 121, 209, 0.8);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.is-rounded-columns {
+  border-radius: 15px;
+  overflow: hidden;  
+}
+.color-blue-1a1aff{
+  color: #1a1aff;
+}
+.login-box {
+  background-color: rgba(183, 183, 183, 0.21);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 418px;
+}
+.custom-column-spacing {
+  margin-left: 1.5rem; 
+  margin-right: 1.5rem; 
+  margin-top: 10px;
+}
+.menu-container {
+  max-width: 1325px;
+  margin: 0 auto;
+}
+  .br-15px-grey{
+    border-radius: 15px;
+    border: 1px solid #d7d7d7;
+  }
+.br-green{
+  border: 1px solid rgb(75, 255, 145);
+  border-radius: 10px;
+}
+
