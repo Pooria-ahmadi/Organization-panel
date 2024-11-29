@@ -1,10 +1,10 @@
 {
-  "name": "simanshop",
+  "name": "aspmcoco",
   "version": "1.0.0",
   "private": true,
   "config": {
     "nuxt": {
-      "port": "4000"
+      "port": "3331"
     }
   },
   "scripts": {
@@ -12,7 +12,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "pm2 start npm --name simanshop -- start"
+    "deploy": "pm2 start npm --name aspmcoco -- start"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
